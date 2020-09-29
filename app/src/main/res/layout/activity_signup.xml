@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="0dp" >
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="#85B9E3"
+
+        >
+        <Button
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#85C4F6"
+            android:text="Back"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/back"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textColor="#0D2BD1"
+            android:textSize="28sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:hint="@string/usename"
+            android:drawableLeft="@drawable/people_icon"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/mail"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:hint="Phone number"
+            android:drawableLeft="@drawable/phone"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:hint="@string/address"
+            android:drawableLeft="@drawable/map"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/pas2"
+            android:autofillHints="" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:hint="@string/recordpassword"
+            android:drawableLeft="@drawable/icon_pass"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/create"
+            android:background="#4B9FE3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
